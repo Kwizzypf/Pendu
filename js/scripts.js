@@ -32,8 +32,6 @@ var indexDictionnaire;
 /* tableau qui va stocker toute les lettres entrées par le joueur */
 var tableauLettreTeste = [];
 
-/* tableau qui va stocker toute les lettres trouvées par le joueur */
-var tableauLettreFound = [];
 
 /* final word */
 var tableauWord = [];
@@ -98,9 +96,13 @@ $("#test").click(function(){
             setTimeout(function(){
                 alert("Bravo! Vous avez trouvé le mot!");
                 popUpEndGame();
-                resetAll();
-            }, 2000);
-           
+            }, 500);
+
+            setTimeout(function(){
+                document.location.reload(true);
+            }, 3000);
+            
+        
         }
 
     }
@@ -252,9 +254,12 @@ function initGame()
     $("#try").show();
     $("#status").show();
     $("#print").show();
-    $("#gameOver").hide();  
+    $("#gameOver").hide();
+    tableauWord = [];
+    tableauLettreTeste = [];
     var max = dictionnaire.length - 1;
-    indexDictionnaire = getRandomNumber(0, max);  
+    indexDictionnaire = getRandomNumber(0, max); 
+    console.log(dictionnaire[indexDictionnaire]); 
     initUnderScores(indexDictionnaire);
 }
 /* fin fonction pour initialiser la partie */
