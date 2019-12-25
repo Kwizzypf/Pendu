@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jeu du pendu</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <div class="btn border-rond" onclick="initGame()">
+                        Launch game!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="try" class="container mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" class="size align-right" type="text" maxlength="1">
+                    <div id="test" class="btn border-rond text-center" onclick="">
+                        Test
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div>
+                        lettre testée :
+                    </div>
+                    <div id="putted">
+
+                    </div>
+                </div>          
+            </div>
+        </div>
+
+        <div id="print" class="container text-center">
+            <div class="row">
+                   <div class="col-6 border">
+                       Word to find :
+                   </div> 
+                   <div id="under" class="col-6 border"></div>
+            </div>
+        </div>
+
+        <div id="status" class="container mt-2">
+            <div id="draw">
+                <div id="one" class="baton"></div>
+                <div id="two" class="baton2"></div>
+                <div id="three" class="baton3"></div>
+                <div id="four" class="baton4"></div>
+                <div id="five" class="baton5"></div>
+                <div id="six" class="baton6"></div>
+                <div id="seven" class="baton7"></div>
+                <div id="eight" class="baton8"></div>
+                <div id="nine" class="baton9"></div>
+                <div id="ten" class="baton10"></div>
+                <div id="eleven" class="baton11"></div>
+
+            </div>        
+        </div>
+
+        <div id="gameOver" class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    GAME OVER
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="mt-2 text-primary">
+            <div class="text-center">
+                © FAATAUIRA Barry
+            </div>  
+        </footer>
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/scripts.js" defer></script>
+    </body>
+</html> 

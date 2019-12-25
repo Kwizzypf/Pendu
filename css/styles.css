@@ -1,0 +1,201 @@
+
+
+.size
+{
+    width: 50px;
+}
+
+.border-rond
+{
+    border: solid;
+    border-radius: 10px;
+}
+
+.border-rond:hover
+{
+    background-color: blue;
+}
+
+#try, #status, #print, #gameOver, #one, #two, #three, #four,#five,#six,#seven,#eight,#nine,#ten,#eleven
+{
+    display: none;
+}
+
+#status
+{
+    width: 100%;
+    height: 400px;
+    background-color: #F0F;
+    position: relative;
+}
+
+#print, #gameOver
+{
+    font-size: 3.8em;
+}
+
+.baton
+{
+    background-color: black;
+    width: 600px;
+    height: 20px;
+}
+
+.baton2
+{
+    background-color: black;
+    width: 300px;
+    height: 20px;
+}
+
+.baton3
+{
+    background-color: black;
+    width: 300px;
+    height: 20px;
+}
+
+.baton4
+{
+    background-color: black;
+    width: 100px;
+    height: 20px;
+}
+
+.baton5
+{
+    background-color: black;
+    width: 50px;
+    height: 10px;
+}
+
+.baton6
+{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.baton7
+{
+    background-color: white;
+    width: 50px;
+    height: 8px;
+}
+
+.baton8
+{
+    background-color: white;
+    width: 20px;
+    height: 8px;
+}
+
+
+.baton9
+{
+    background-color: white;
+    width: 20px;
+    height: 8px;
+}
+
+.baton10
+{
+    background-color: white;
+    width: 30px;
+    height: 8px;
+}
+
+.baton11
+{
+    background-color: white;
+    width: 30px;
+    height: 8px;
+}
+
+#one
+{
+    position: absolute;
+    top: 90%;
+    right: 40%;
+}
+
+#two
+{
+    position: absolute;
+    top: 55%;
+    transform: rotate(90deg);
+}
+
+#three
+{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+#four
+{
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 25%;
+    left: 13%;
+}
+
+#five
+{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 25%;
+    left: 33%;
+}
+
+#six
+{
+    position: absolute;
+    top: 30%;
+    left: 34%;
+}
+
+#seven
+{
+    position: absolute;
+    top: 43%;
+    left: 33%;
+    transform: rotate(90deg);
+    border-left: solid;
+}
+
+#eight
+{
+    position: absolute;
+    transform: rotate(45deg);
+    top: 40%;
+    left: 35%;
+    
+}
+
+#nine
+{
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 40%;
+    left: 33.7%;
+    
+}
+
+#ten
+{
+    position: absolute;
+    transform: rotate(60deg);
+    top: 52%;
+    left: 34.7%;   
+}
+
+#eleven
+{
+    position: absolute;
+    transform: rotate(-60deg);
+    top: 52%;
+    left: 33%;   
+}
