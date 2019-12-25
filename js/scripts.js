@@ -77,7 +77,11 @@ $("#test").click(function(){
                 alert("Désolé vous avez été pendu!");
                 popUpEndGame();
                 resetAll();
-            }, 2000);
+            }, 1000);
+
+            setTimeout(function(){
+                document.location.reload(true);
+            }, 3000);
 
         }   
     }

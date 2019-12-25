@@ -1,4 +1,12 @@
-
+body
+{
+    background-color: greenyellow;
+    background-image: url("../img/zoro2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 1000px;
+   
+}
 
 .size
 {
@@ -18,20 +26,19 @@
 
 #try, #status, #print, #gameOver, #one, #two, #three, #four,#five,#six,#seven,#eight,#nine,#ten,#eleven
 {
-    display: none;
+    display: none; 
 }
 
 #status
 {
     width: 100%;
     height: 400px;
-    background-color: #F0F;
     position: relative;
 }
 
 #print, #gameOver
 {
-    font-size: 3.8em;
+    font-size: 3em;
 }
 
 .baton
