@@ -141,6 +141,7 @@ function putLetter(lettre)
 /* fonction pour initialiser la partie */
 function initGame()
 {
+    $("#startGame").hide();
     resetAll();
     $("#try").show();
     $("#status").show();
